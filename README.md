@@ -54,7 +54,7 @@ O projeto está organizado nos seguintes arquivos:
 Para compilar o projeto, utilize o comando:
 
 ```bash
-g++ main.cpp OrderBook.cpp Order.cpp Transaction.cpp -o order_book
+g++ main.cpp OrderBook.cpp Order.cpp Transaction.cpp Node.cpp -o order_book
 ```
 
 ## Instruções de execução
