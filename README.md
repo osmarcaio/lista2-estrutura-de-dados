@@ -4,7 +4,7 @@
 
 Este projeto implementa um sistema simples de ordens de compra e venda em C++, conforme proposto no Trabalho 2 da disciplina.
 
-O sistema gerencia ordens de **compra** e **venda** de uma única ação. Para cada nova ordem inserida, o programa verifica automaticamente se existe alguma contraparte compatível já armazenada no sistema e, caso exista, executa imediatamente a transação seguindo as regras definidas no enunciado.
+O sistema gerencia ordens de **compra** e **venda** de uma única ação. Para cada nova ordem inserida, o programa verifica automaticamente se existe alguma contraparte compatível já armazenada no sistema e, caso exista, executa imediatamente a transação.
 
 O sistema permite:
 
@@ -73,7 +73,7 @@ order_book.exe
 
 ## Organização interna dos dados
 
-Internamente, o sistema foi implementado com estruturas manuais, sem uso de estruturas da STL como `vector`, `list` ou `map`, conforme exigido pelo enunciado.
+Internamente, o sistema foi implementado com estruturas manuais, sem uso de estruturas da STL como `vector`, `list` ou `map`.
 
 ### 1. Armazenamento das ordens e transações
 
