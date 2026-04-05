@@ -1,9 +1,20 @@
+#ifndef ORDERBOOK_HPP
+#define ORDERBOOK_HPP
+
+#include "Order.hpp"
+#include "Node.hpp"
+
+#include "Transaction.hpp"
+
+
 class OrderBook {
 
 private:
 
-    // Estruturas internas escolhidas pelos alunos
-    // para armazenar ordens de compra, venda e transações
+    OrderNodeControl lista_de_vendas;
+    OrderNodeControl lista_de_compras;
+    TransactionNodeControl lista_de_transacoes;
+
 
 public:
 
@@ -23,3 +34,5 @@ public:
 
     // Outros métodos auxiliares, se necessário
 };
+
+#endif
